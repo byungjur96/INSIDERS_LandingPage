@@ -1,0 +1,132 @@
+/* 레이아웃 */
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html, body {
+	width: 100%;
+	margin: 0;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+a { text-decoration: none; }
+
+.page {
+    width: calc(100% - 60px);
+    height: calc(100vh - 60px);
+	padding: 30px;
+}
+
+
+.initial {
+    position: absolute;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 50px;;
+    right: 20px;
+}
+/* 레이아웃 끝 */
+
+/* 네비게이션 바 */
+#nav-bar {
+	width: calc(100% - 40px);
+	padding-right: 20px;
+	padding-left: 20px;
+	height: 64px;
+	position: fixed;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-title {
+	margin-right: auto;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.nav-category {
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.nav-category:hover {
+	color: gray;
+}
+
+.down-nav {
+	background-color: white!important;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, .07);
+}
+
+.down-nav > * {
+	color: black;
+}
+/* 네비게이션 바 끝 */
+
+/* 소개 */
+#title {
+	height: 100vh;
+	padding-bottom: 0!important;
+	background-image: url("./assets/title.jpg");
+	background-size: cover;
+	background-color: #393939;
+  	background-blend-mode: overlay;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#title > h1 {
+	font-family: 'NanumSquare', sans-serif;
+    font-size: 48px;
+    line-height: 130%;;
+    text-align: center;
+	color: white;
+}
+
+.logo {
+	height:200px;
+	opacity: 0.7;
+	margin: 20px;
+	
+}
+
+.kweb-explanation {
+	font-family: 'Nanum Gothic', sans-serif;
+	text-align: center;
+	margin-top: 50px;
+	color: #f0f0f0;
+	line-height: 1.5em;
+}
+/* 소개 끝 */
+
+/* 쉽게 */
+#easy  {
+    background-color: #f2cda8;
+}
+/* 쉽게 끝 */
+
+/* 주변 사연 및 경험 */
+#story {
+    background-color: #b06a3a;
+}
+/* 주변 사연 및 경험 끝 */
+
+/* 정확/속도/신뢰 */
+#news {
+    background-color: #fff5e6;
+}
+/* 정확/속도/신뢰 끝 */
+
+/* 실생활 */
+#life {
+    background-color: #ff7c23;
+}
+/* 실생활 끝 */
