@@ -1,4 +1,4 @@
-let animation_done = false
+window.location.href = "http://insiders-landingpage.s3-website.us-east-2.amazonaws.com/";
 
 function stickyNav() {
     let nav = document.getElementById("nav-bar");
@@ -35,3 +35,4 @@ window.onscroll = function() {
 };
 
 animateValue("value", 1, 77, 5000);
+
