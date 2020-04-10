@@ -105,23 +105,66 @@ a { text-decoration: none; }
 	color: #f0f0f0;
 	line-height: 1.5em;
 }
+.rank {
+    color: white;
+}
+
+.page-title {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+}
 /* 소개 끝 */
 
 /* 쉽게 */
 #easy  {
     background-color: #f2cda8;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+.container > div {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10vh;
+    width: 25vw;
+    height: 60vh;
+    border: 1px solid black;
+
+}
 /* 쉽게 끝 */
 
 /* 주변 사연 및 경험 */
-#story {
-    background-color: #b06a3a;
+#subscribe {
+    background-color: #f2cda8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#title > div {
+    margin: 5px;
+    color: darkgray;;
+}
+
+.world-rank {
+    margin-bottom: 20px!important;
+
+}
+.world-rank > span {
+    color: lightgray;
 }
 /* 주변 사연 및 경험 끝 */
 
 /* 정확/속도/신뢰 */
 #news {
-    background-color: #fff5e6;
+    background-color: #b06a3a;
 }
 /* 정확/속도/신뢰 끝 */
 
@@ -130,3 +173,9 @@ a { text-decoration: none; }
     background-color: #ff7c23;
 }
 /* 실생활 끝 */
+
+
+#value {
+    font-size: 30px;
+    color: lightgray;
+}
