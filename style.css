@@ -25,6 +25,11 @@ a { text-decoration: none; }
     margin: 20px;
 }
 
+.description {
+    text-align: center;
+    line-height: 140%;
+}
+
 .initial {
     position: absolute;
     font-style: italic;
