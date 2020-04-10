@@ -15,10 +15,15 @@ a { text-decoration: none; }
 
 .page {
     width: calc(100% - 60px);
-    height: calc(100vh - 60px);
+    height: calc(100vh - 64px);
 	padding: 30px;
 }
 
+.icon {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
 
 .initial {
     position: absolute;
@@ -26,6 +31,20 @@ a { text-decoration: none; }
     font-weight: bolder;
     font-size: 50px;;
     right: 20px;
+}
+
+.replace-img {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: black;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* 레이아웃 끝 */
 
@@ -133,7 +152,6 @@ a { text-decoration: none; }
     margin-top: 10vh;
     width: 25vw;
     height: 60vh;
-    border: 1px solid black;
 
 }
 /* 쉽게 끝 */
