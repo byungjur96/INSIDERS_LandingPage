@@ -1,5 +1,3 @@
-window.location.href = "http://insiders-landingpage.s3-website.us-east-2.amazonaws.com/";
-
 function stickyNav() {
     let nav = document.getElementById("nav-bar");
     let landingHeight = document.getElementById("title").offsetHeight - 64;
