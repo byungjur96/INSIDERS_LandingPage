@@ -1,0 +1,198 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+}
+
+.page {
+	height: calc(100vh - 104px);
+	margin: 0;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.page:nth-child(2n+1) {
+	background-color: lightgray;
+}
+
+.page-title {
+	padding: 20px;
+	margin: 0 0 10px 0;
+}
+
+/* Header 시작 */
+#header {
+	width: 100vw;
+	height: 64px;
+	margin-top: -64px;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	background-color: #2C1B45;
+}
+
+#header > .title {
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+}
+
+#title-logo {
+	margin-left: 20px;
+	margin-right: auto!important;
+}
+
+#title-logo > img {
+	width: 50px;
+	height: 50px;
+}
+
+#title-name {
+	color: purple;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#header > a {
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+}
+
+#header > a:hover {
+	color: gray;
+}
+
+#header > a:last-child {
+	margin-right: 20px;
+}
+/* Header 끝*/
+
+/* Vision 시작 */
+#vision {
+	width: 100vw;
+	margin-top: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./assets/meeting.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+#vision-text {
+	color: white;
+	font-size: 40px;
+}
+/* Vision 끝 */
+
+/* Curriculum 시작 */
+#curriculum {
+	height: fit-contents;
+}
+
+#curriculum-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.curriculum-contents {
+	margin: 10px;
+	flex: 1;
+}
+
+.curriculum-name {
+	text-align: center;
+}
+
+.summary-sentence {
+	font-style: italic;
+	color: gray;
+	margin: 5px auto 15px; auto;
+	text-align: center;
+}
+
+.curriculum-image {
+	width: 100%;
+}
+/* Curriculum 끝 */
+
+/* Session 시작 */
+#session {
+
+}
+
+/* Session 끝 */
+
+/* 방명록 시작 */
+#guest-book {
+	height: max-content!important;
+	display: block!important;
+}
+
+.memo-len-box {
+	margin-top: 5px;
+	text-align: right;
+	color: darkgray;
+}
+
+.memo-date {
+	font-size: 14px;
+	color: darkgray;
+}
+
+.info-input {
+	padding-left: 20px;
+}
+
+.memo-input {
+	padding: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: solid 1px black;
+	display: flex;
+	background-color: white;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#memo {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 10px;
+	border: none;
+	font-size: 15px;
+	resize: none;
+}
+
+#upload-btn {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: skyblue;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 50px;
+	display: inline-block;
+	border: none;
+}
+/* 방명록 끝 */
+
+/* Footer 시작 */
+#footer {
+	width: 100vw;
+	height: 88px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	background-color: black;
+	color: white;
+}
+/* Footer 끝 */
+
+

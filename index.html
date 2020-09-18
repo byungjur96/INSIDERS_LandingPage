@@ -3,12 +3,35 @@
 <head>
 	<meta charset="UTF-8">
 	<title>INSIDERS</title>
+	<style type="text/css">
+		#container {
+			width: 100vw;
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		#navigator-heading {
+			margin-top: 50px;
+		}
+
+		.page-link {
+			margin: 5px;
+		}
+
+	</style>
 </head>
 <body>
-	<h1>INSIDERS Landing Page Navigator</h1>
-	<div>
-		<a href="./toast/index.html">TOAST</a>
-		<a href="./study/index.html">Web Programming Study</a>
+	<div id="container">
+		<h1 id="navigator-heading">INSIDERS Landing Page Navigator</h1>
+		<a href="./toast/index.html" class="page-link">
+			TOAST
+		</a>
+		
+		<a href="./study/index.html" class="page-link">
+			Web Programming Study
+		</a>
 	</div>
 </body>
 </html>
