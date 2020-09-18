@@ -97,7 +97,7 @@ a { text-decoration: none; }
 #title {
 	height: 100vh;
 	padding-bottom: 0!important;
-	background-image: url("./toast/title.jpg");
+	background-image: url("./assets/title.jpg");
 	background-size: cover;
 	background-color: #393939;
   	background-blend-mode: overlay;
