@@ -85,7 +85,7 @@ html, body {
 
 #vision-text {
 	color: white;
-	font-size: 20px;
+	font-size: 1.5em;
 }
 /* Vision 끝 */
 
@@ -112,7 +112,7 @@ html, body {
 .summary-sentence {
 	font-style: italic;
 	color: gray;
-	margin: 5px auto 15px; auto;
+	margin: 5px auto 15px auto;
 	text-align: center;
 }
 
@@ -122,8 +122,14 @@ html, body {
 /* Curriculum 끝 */
 
 /* Session 시작 */
-#session {
+#session-description {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
 
+#session-description th, td {
+	border: 1px solid black;
+	padding: 10px;
 }
 
 /* Session 끝 */
@@ -194,5 +200,3 @@ html, body {
 	color: white;
 }
 /* Footer 끝 */
-
-
